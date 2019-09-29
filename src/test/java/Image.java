@@ -7,5 +7,5 @@ public class Image {
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
     }
-   
+
 }
