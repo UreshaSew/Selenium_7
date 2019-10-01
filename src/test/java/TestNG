@@ -1,0 +1,20 @@
+import org.testng.annotations.BeforeSuite;
+
+public class TestNG {
+    public static void main(String[]args){
+ TestNGTest t1 = new TestNGTest();
+ TestNGTest t2 = new TestNGTest();
+ TestNGTest t3 = new TestNGTest();
+ TestNGTest t4 = new TestNGTest();
+ TestNGTest t5 = new TestNGTest();
+
+ t1.bothempty();
+ t2.vaidUsername();
+// t3.vaildPassword();
+// t4.bothInvalid();
+// t5.bothValid();
+
+
+
+    }
+}
